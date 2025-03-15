@@ -1,2 +1,2 @@
 # ohayo~
-<p>arigatogozaimashita!!</p>
+<p>arigatougozaimashita!!</p>
