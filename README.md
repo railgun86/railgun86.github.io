@@ -148,12 +148,12 @@
 
   <section class="hero">
     <h2>欢迎来到 Ra站！</h2>
-    <p>一个只属于二次元爱好者的梦幻角落，在这里你可以发现最棒的作品，也可以展现自己的风格！</p>
+    <p>此为幻想乡</p>
   </section>
 
   <section class="section" id="message">
     <h3>📬 给 Ra站 留言</h3>
-    <form action="https://formspree.io/f/your-form-id" method="POST">
+    <form action="https://formspree.io/f/2755683789047857014" method="POST">
       <label>
         你的名字：
         <input type="text" name="name" required>
