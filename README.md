@@ -151,20 +151,20 @@
     <p>此为幻想乡</p>
   </section>
 
-  <section class="section" id="message">
-    <h3>📬 给 Ra站 留言</h3>
-    <form action="https://formspree.io/f/2755683789047857014" method="POST">
-      <label>
-        你的名字：
-        <input type="text" name="name" required>
-      </label>
-      <label>
-        留言内容：
-        <textarea name="message" rows="5" required></textarea>
-      </label>
-      <button type="submit">发送</button>
-    </form>
-  </section>
+ <section class="section" id="message">
+  <h3>📬 给 Ra站 留言</h3>
+  <form action="https://formspree.io/f/2755683789047857014" method="POST">
+    <label>
+      你的名字：
+      <input type="text" name="name" required>
+    </label>
+    <label>
+      留言内容：
+      <textarea name="message" rows="5" required></textarea>
+    </label>
+    <button type="submit">发送</button>
+  </form>
+</section>
 
   <footer>
     © 2025 Ra站 | 制作：fubuki_railgun
