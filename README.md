@@ -17,7 +17,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);；
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     }
     header h1 {
       font-size: 2rem;
@@ -88,6 +88,35 @@
       font-size: 0.95rem;
       color: #555;
     }
+    form {
+      background-color: #fff0f6;
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      max-width: 600px;
+      margin: auto;
+    }
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin: 0.5rem 0 1rem;
+      border: 1px solid #ffc7e3;
+      border-radius: 8px;
+      font-family: 'Zen Maru Gothic', sans-serif;
+    }
+    form button {
+      background-color: #ff78a1;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 12px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    form button:hover {
+      background-color: #ff5e90;
+    }
     footer {
       background-color: #ffc7e3;
       text-align: center;
@@ -110,7 +139,6 @@
   <header>
     <h1>Ra站</h1>
     <nav>
-      <a href="#anime">动漫</a>
       <a href="#galgame">GALGAME</a>
       <a href="#games">3A游戏</a>
       <a href="#movies">电影</a>
@@ -123,24 +151,23 @@
     <p>一个只属于二次元爱好者的梦幻角落，在这里你可以发现最棒的作品，也可以展现自己的风格！</p>
   </section>
 
-  <section class="section" id="anime">
-    <h3>🎀 动漫推荐</h3>
-    <div class="cards">
-      <div class="card">
-        <h4>天使降临到我身边</h4>
-        <p>日常系顶级萌番，百看不厌。</p>
-      </div>
-      <div class="card">
-        <h4>CLANNAD</h4>
-        <p>经典催泪神作，Key社代表作之一。</p>
-      </div>
-    </div>
+  <section class="section" id="message">
+    <h3>📬 给 Ra站 留言</h3>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <label>
+        你的名字：
+        <input type="text" name="name" required>
+      </label>
+      <label>
+        留言内容：
+        <textarea name="message" rows="5" required></textarea>
+      </label>
+      <button type="submit">发送</button>
+    </form>
   </section>
 
-  <!-- 更多推荐可以按照这个结构扩展 -->
-
   <footer>
-    © 2025 Ra站 | 制作：你最可爱的自己 ✨
+    © 2025 Ra站 | 制作：fubuki_railgun
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
