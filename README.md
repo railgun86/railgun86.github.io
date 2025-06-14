@@ -5,20 +5,20 @@
   <title>Ra站</title>
   <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
   <style>
-    /* 页面重置 + 字体 */
     body, h1, h2, h3, p, label, a, nav {
       margin:0; padding:0;
       font-family:'Zen Maru Gothic', sans-serif;
     }
     body {
       overflow-x:hidden;
-      /* 背景图：日式小镇 + 电车 + 晴空风格 */
       background-image:
         url('https://images.pexels.com/photos/62672/pexels-photo-62672.jpeg'),
-        url('https://images.pexels.com/photos/103567/pexels-photo-103567.jpeg');
-      background-size: cover, contain;
+        url('https://wallpapersok.com/wallpapers/anime-aesthetic-tram-in-city-6775tr7q0p0519mb.html'),
+        url('https://stock.adobe.com/images/a-beautiful-japanese-tokyo-city-town-in-the-evening-houses-at-the-street-anime-cartoonish-artstyle-cozy-lofi-asian-architecture-16-9-4k-resolution-generative-ai/626035560'),
+        url('https://in.pinterest.com/pin/319826011057338178/');
+      background-size: cover, cover, cover, cover;
+      background-position: center;
       background-attachment: fixed;
-      background-position: center top, center bottom;
     }
 
     header {
@@ -85,7 +85,7 @@
       position:relative; z-index:2;
     }
 
-    /* 雪花粒子动画层 */
+    /* 粒子保留，取消遮挡 */
     #particles-js {
       position:fixed;
       top:0; left:0;
@@ -110,22 +110,21 @@
   </header>
 
   <section class="hero">
-    <h2>欢迎来到 Ra站！</h2>
-    <p>此为幻想乡</p>
+    <h2> Ra站！</h2>
+    <p>此処は幻想郷</p>
   </section>
 
-  <!-- 留言区 -->
   <section class="section" id="message">
     <h3>📬 给 Ra站 留言</h3>
     <form action="https://formspree.io/f/xblyylwd" method="POST">
-      <label>你的名字：<input type="text" name="name" required></label>
-      <label>留言内容：<textarea name="message" rows="5" required></textarea></label>
-      <button type="submit">发送</button>
+      <label>君の名字：<input type="text" name="name" required></label>
+      <label>留言の内容：<textarea name="message" rows="5" required></textarea></label>
+      <button type="submit">发射</button>
     </form>
   </section>
 
   <footer>
-    © 2025 Ra站 | 制作：fubuki_railgun
+    © 2025 Ra站 | 制作：Furandoru_
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
