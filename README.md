@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
@@ -18,6 +19,8 @@
       justify-content: space-between;
       align-items: center;
       box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      position: relative;
+      z-index: 2;
     }
     header h1 {
       font-size: 2rem;
@@ -42,7 +45,7 @@
       padding: 4rem 1rem;
       background: linear-gradient(to bottom, #ffeaf4, #fff);
       position: relative;
-      z-index: 1;
+      z-index: 2;
     }
     .hero h2 {
       font-size: 2.5rem;
@@ -59,6 +62,8 @@
     .section {
       padding: 3rem 2rem;
       background-color: #fff;
+      position: relative;
+      z-index: 2;
     }
     .section h3 {
       font-size: 2rem;
@@ -95,6 +100,8 @@
       box-shadow: 0 8px 16px rgba(0,0,0,0.1);
       max-width: 600px;
       margin: auto;
+      position: relative;
+      z-index: 3;
     }
     form input,
     form textarea {
@@ -123,6 +130,8 @@
       padding: 1rem;
       font-size: 0.9rem;
       color: #fff;
+      position: relative;
+      z-index: 2;
     }
     #particles-js {
       position: fixed;
@@ -131,6 +140,7 @@
       width: 100%;
       height: 100%;
       z-index: 0;
+      pointer-events: none; /* 这行可确保动画层无法挡住表单交互 */
     }
   </style>
 </head>
@@ -151,20 +161,20 @@
     <p>此为幻想乡</p>
   </section>
 
- <section class="section" id="message">
-  <h3>📬 给 Ra站 留言</h3>
-  <form action="https://formspree.io/f/xblyylwd" method="POST">
-    <label>
-      你的名字：
-      <input type="text" name="name" required>
-    </label>
-    <label>
-      留言内容：
-      <textarea name="message" rows="5" required></textarea>
-    </label>
-    <button type="submit">发送</button>
-  </form>
-</section>
+  <section class="section" id="message">
+    <h3>📬 给 Ra站 留言</h3>
+    <form action="https://formspree.io/f/xblyylwd" method="POST">
+      <label>
+        你的名字：
+        <input type="text" name="name" required>
+      </label>
+      <label>
+        留言内容：
+        <textarea name="message" rows="5" required></textarea>
+      </label>
+      <button type="submit">发送</button>
+    </form>
+  </section>
 
   <footer>
     © 2025 Ra站 | 制作：fubuki_railgun
