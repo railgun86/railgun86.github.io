@@ -153,7 +153,7 @@
 
  <section class="section" id="message">
   <h3>📬 给 Ra站 留言</h3>
-  <form action="https://formspree.io/f/2755683789047857014" method="POST">
+  <form action="https://formspree.io/f/xblyylwd" method="POST">
     <label>
       你的名字：
       <input type="text" name="name" required>
