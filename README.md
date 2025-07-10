@@ -103,9 +103,6 @@
     <h1>Ra站</h1>
     <nav>
       <a href="#galgame">GALGAME</a>
-      <a href="#games">3A游戏</a>
-      <a href="#movies">电影</a>
-      <a href="#bands">乐队</a>
     </nav>
   </header>
 
