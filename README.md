@@ -107,7 +107,7 @@
   </header>
 
   <section class="hero">
-    <h2>  Ra站！</h2>
+    <h2>    Ra站！</h2>
     <p>此処は幻想郷</p>
   </section>
 
